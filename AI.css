@@ -5,8 +5,8 @@
   }
   
   .box {
+     max-width: 100%;
     width: 1610px;
-    max-width: 100%;
     margin: 0 auto;
   }
   
@@ -32,11 +32,7 @@
     background-color:rgb(0, 0, 14);
   }
   
-  .box {
-    max-width: 1500px;
-    margin: auto;
-    padding: 10px 20px;
-  }
+ 
   
   .header_wrapper {
     display: flex;

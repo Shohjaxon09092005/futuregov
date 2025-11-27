@@ -20,18 +20,18 @@ function fakeAI(question) {
     }
 
     if (question.includes("radardan qarzimi korsat") || question.includes("elektr")) {
-        return "Radardan qarzingiz qancha";
+        return "Radardan qarzingiz yoq";
     }
 
-    if (question.includes("suv")) {
-        return "Suv taʼminoti to‘lovi m³ hisobida sanaladi. Odatda oylik ravishda hisob-kitob qilinadi.";
+    if (question.includes("maktab uchun menga sprafga qilib ber")) {
+        return "(Muassasa nomi) rahbariyatiga ___(Sinf/guruh rahbari)___ga ___(Ismingiz Familiyangiz)___dan ___(Farzandingizning ismi familiyasi)___ning ota-onasi  ARIZA  Sizdan shuni malum qilamanki, (farzandingizning ismi) sog'ligi sababli (sana) kuni darslarga (yokimashg‘ulotlarga) qatnasha olmadi. Iltimos, mazkur sababni inobatga olib darsga kelmaganligini uzrli deb hisoblashni so‘rayman.Hurmat bilan, (Ismingiz Familiyangiz)Sana: (bugungi sana)";
     }
       if (question.includes("www")) {
         return "";
     }
 
-    if (question.includes("raqamli") || question.includes("ai")) {
-        return "Bizning tizim sunʼiy intellekt yordamida kommunal xizmatlar haqida maʼlumot beradi.";
+    if (question.includes("wrachga nechiga yozilsam boladi") || question.includes("ai")) {
+        return "bugun wrachning soat 1:00 ga vahti bor bez ochirid kirasiz";
     }
     if (question.includes("77777") || question.includes("ai")) {
         return "Sizning xisob raqamingiz royhatan otilmagan";
