@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #1e3c72, #2a5298, #6a11cb);
+    background-size: 400% 400%;
+    animation: bgAnim 15s ease infinite;
+}
+
+@keyframes bgAnim {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
+.ratingCard {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ratingCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+}
+
+.progress-container {
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.ratingCard {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.5s;
+}
+
+
+.ratingCard:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.5); 
+    background: linear-gradient(135deg, #4facfe, #00f2fe); 
+}
+.container {
+    max-width: 500px;
+    width: 90%;
+    background: linear-gradient(135deg, #00c6ff, #0072ff, #6a11cb); 
+    padding: 35px 30px;
+    margin: 40px auto;
+    border-radius: 25px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.5s;
+}
+
+
+.container:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.45);
+   
+}
